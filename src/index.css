@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#slider-boxes {
+    display: flex !important;
+    
+}
+/* .slick-slide {
+    margin: 0 10px;
+} */
+.slick-arrow::before {
+  color: red;
+  font-size: 50px;
+}
+.slick-prev{
+  top: -80px;
+  left: 1180px;
+}
