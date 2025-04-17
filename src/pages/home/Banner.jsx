@@ -1,64 +1,68 @@
 import Headroom from "react-headroom";
 import bannerBrkt from "../../assets/Group 143725865.png"
+import video from "../../assets/Introduce  Rayluxeo 2.mp4"
 import { TypeAnimation } from "react-type-animation";
 
+
 const Banner = () => {
-    const navLinks = <>
-        <li><a href="#banner">About</a></li>
-        <li><a href="#project">Project</a></li>
-        <li><a href="#tokenomics">Service</a></li>
-        <li><a href="#roadmap">Client</a></li>
-        <li><a href="#joinUs">Team</a></li>
-        <li><a href="#joinUs">Blog</a></li>
-        <li><a href="#joinUs">Contact</a></li>
 
-
-    </>
     return (
         <section id="banner" className="bg-banner  mx-auto" >
             <div className="  ">
 
-                <div className="  flex  min-h-[50vh]  md:min-h-[854px]  ">
+                <div className=" pt-32  flex flex-col md:flex-row gap-10 md:gap-0 min-h-[60vh]  md:min-h-[854px]  ">
+                {/* bg-black opacity-75 */}
+                    <div className="   flex items-center justify-center rounded-r-[50px] md:w-1/2 ">
+                        <div className="flex justify-start md:justify-end">
+                            <div className="ml-5 w-[380px] md:w-[400px] lg:w-[600px]  md:max-w[500px]  lg:max-w-[760px] mx-auto">
+                                <div className="flex items-center gap-3 font-Poppins">
+                                    <h1 className=" text-4xl md:text-[40px] lg:text-[55px] font-bold text-black" >Lets make
+                                    </h1>
 
-                    <div className="bg-black opacity-75   flex items-center justify-center rounded-r-[50px] w-1/2">
-                        <div className="ml-5 lg:ml-36 md:max-w[500px]  lg:max-w-[660px] mx-auto">
-                            <div className="flex items-center gap-3 font-Poppins">
-                                <h1 className=" text-lg md:text-[40px] lg:text-[70px] font-bold text-white" >Lets make
-                                </h1>
-                                {/* <img className="w-[18px] md:w-[40px] lg:w-20  lg:h-14 mt-0 md:mt-2  lg:mt-4" src={bannerBrkt} alt="" /> */}
+                                </div>
+                                <h2 className=" text-xl md:text-[55px] font-bold text-[#064BA7] md:mt-7" ></h2>
+                                <TypeAnimation
+                                    sequence={[
+
+                                        'Brand Together!',
+                                        1000,
+                                        'Website Together!',
+                                        1000,
+                                        'Designs Together!',
+                                        1000,
+                                        'Marketing Together!',
+                                        1000,
+                                    ]}
+                                    speed={50}
+
+                                    className="text-4xl md:text-[40px] lg:text-[55px] font-bold text-[#064BA7] mt-3 lg::mt-7"
+                                    repeat={Infinity}
+                                />
                             </div>
-                            <h2 className=" text-xl md:text-[70px] font-bold text-white md:mt-7" ></h2>
-                            <TypeAnimation
-                                sequence={[
-                                    // Same substring at the start will only be typed once, initially
-                                    'software together !',
-                                    1000,
-                                    ' software together !',
-                                    1000,
-                                    'software together !',
-                                    1000,
-                                    'software together !',
-                                    1000,
-                                ]}
-                                speed={50}
-                                // style={{
-                                //     fontSize: '70px', /* text-xl */
-                                //     fontWeight: '700', /* font-bold */
-                                //     color: 'white', /* text-white */
-                                //     marginTop: '1.75rem', /* md:mt-7 */
-                                //     '@media (min-width: 768px)': {
-                                //       fontSize: '70px', /* md:text-[70px] */
-                                //     }
-                                //   }}
-                                className="text-lg md:text-[40px] lg:text-[70px] font-bold text-white mt-3 lg::mt-7"
-                                repeat={Infinity}
-                            />
                         </div>
 
 
                     </div>
 
-                    <div className=" w-1/2">
+                    <div className=" md:w-1/2  flex justify-center items-center px-5 md:px-10 lg:px-0">
+                        {/* <video controls className="w-full px-16 rounded-2xl" >
+                            
+                        </video> */}
+                        
+                        <video
+                        
+                            className=" lg:w-[600px]  rounded-xl   shadow-xl"
+                            controls
+                            autoPlay
+                            loop
+                            playsInline
+                        
+                        //    src={video}
+                            
+                        >
+                            <source src={video} type="video/mp4" />
+                            
+                        </video>
 
 
                     </div>

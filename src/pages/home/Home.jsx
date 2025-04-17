@@ -1,6 +1,6 @@
 
 import Banner from './Banner';
-import bannerImg from '../../assets/Banner.webp'
+import bannerImg from '../../assets/BG Hero.webp'
 import './banner.css'
 import Breaking from './Breaking';
 import AboutUS from './AboutUS';
@@ -8,6 +8,7 @@ import Project from './Project';
 import FeaturedContent from './FeaturedContent';
 import OurTeam from './OurTeam';
 import ContactUs from './ContactUs';
+import AppointmentForm from './AppointmentForm';
 
 const Home = () => {
     return (
@@ -17,12 +18,15 @@ const Home = () => {
                 <Banner></Banner>
 
             </div>
-            <Breaking></Breaking>
+            <div>
+                <Breaking></Breaking>
             <AboutUS></AboutUS>
+            <AppointmentForm></AppointmentForm>
             <Project></Project>
             <OurTeam></OurTeam>
             <FeaturedContent></FeaturedContent>
-            <ContactUs></ContactUs> 
+            <ContactUs></ContactUs>  
+            </div>
         </div>
     );
 };

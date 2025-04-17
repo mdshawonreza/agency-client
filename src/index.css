@@ -6,6 +6,9 @@
     display: flex !important;
     
 }
+.active{
+  color: #60CE70 ;
+}
 /* .slick-slide {
     margin: 0 10px;
 } */
@@ -16,4 +19,61 @@
 .slick-prev{
   top: -80px;
   left: 1180px;
+}
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Nabla:EDPT,EHLT@30..200,24&display=swap"); */
+
+@layer utilities {
+  .font-nabla {
+    font-family: 'Nabla', cursive;
+  }
+
+  .font-depth {
+    font-variation-settings: "EDPT" 30;
+    font-palette: --Nabla;
+  }
+
+  @font-palette-values --Nabla {
+    font-family: 'Nabla';
+    base-palette: 2;
+  }
+
+  @keyframes depth {
+    0% {
+      transform: translateX(0) translateY(0);
+    }
+    100% {
+      transform: translateX(0.15em) translateY(0.1em);
+      font-variation-settings: "EDPT" 200;
+    }
+  }
+
+  .animate-depth {
+    animation: depth 1s ease-in-out alternate infinite;
+  }
+}
+
+
+
+@keyframes slide {
+  from {
+    right: -25vw;
+  }
+  to {
+    right: 125vw;
+  }
+}
+
+/* Custom glow utilities */
+.glow-h {
+  box-shadow: 0 0 50vh 40vh white;
+}
+.glow-v {
+  box-shadow: 0 0 35vw 25vw white;
+}
+
+.rainbow {
+  transform: rotate(10deg);
+  transform-origin: top right;
 }

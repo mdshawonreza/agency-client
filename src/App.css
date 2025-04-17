@@ -47,8 +47,10 @@ font-Poppins
 
   }
 }
-
-.contact-button{
+.contact-button {
+  transition: all 0.3s ease-in-out;
+}
+.contact-button:hover {
 /* -webkit-box-shadow: 5px 5px 5px -4px #000000, 8px 29px 43px 27px rgba(0,0,0,0.35); 
 box-shadow: 4px 4px 3px 0px #000000, 8px 29px 43px 27px rgba(0,0,0,0.0); */
 
