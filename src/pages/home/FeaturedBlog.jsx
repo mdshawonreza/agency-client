@@ -48,8 +48,8 @@ const FeaturedBlog = () => {
 					<div className="lg:col-span-3">
 						
 						
-						<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal md:text-2xl">
-							<span className='text-5xl font-semibold text-[#064BA7]'>A</span> logo is an image that symbolizes your business. But did you know there are 7 different types of logos?
+						<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal md:text-2xl text-justify">
+							<span className='text-5xl font-semibold text-[#064BA7] '>A</span> logo is an image that symbolizes your business. But did you know there are 7 different types of logos?
 							Though they’re all a combination of typography and images, each type of logo gives your brand a different feel. And since your logo is the first thing new customers will see, you want to make sure you get it right.
 						</p>
 
@@ -99,13 +99,13 @@ const FeaturedBlog = () => {
 									</p>
 								</a>
 							</div>
-							<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+							<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
 							Monogram logos or lettermarks are logos that consist of letters, usually brand initials. IBM, CNN, HP, HBO… Noticing a pattern, yes? They’re the initialisms of a few famous businesses with rather lengthy names. With 2 or 3 words to remember, they’ve each turned to using their initials for brand-identification purposes. So it makes perfect sense for them to use monograms—sometimes called lettermark logos—to represent their organizations.
 							</p>
-							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
 							A lettermark is a typography-based logo that’s comprised of a few letters, usually a company’s initials. The lettermark is all about simplicity. By utilizing just a few letters lettermark logos are effective at streamlining any company brand if they have a long name. For example, how much easier is it to say—and remember—NASA versus the National Aeronautics and Space Administration?
 							</p>
-							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
 							Because the focus is on initials, the font you choose (or create) is very important to make sure your logo is not only on-theme with what your company does, but also legible when you print on business cards. Also, if you’re not an established business already you may want to add your full business name below the logo so people can begin to learn who you are right away.
 							</p>
 							<div className='flex my-10 justify-center items-center gap-10'>
@@ -135,10 +135,10 @@ const FeaturedBlog = () => {
 									</p>
 								</a>
 							</div>
-							<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+							<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
 							Similar to a lettermark, a wordmark or logotype is a font-based logo that focuses on a business’ name alone. Think Visa and Coca-Cola. Wordmark logos work really well when a company has a succinct and distinct name. Google’s logo is a great example of this. The name itself is catchy and memorable so, when combined with strong typography, the logo helps create strong brand recognition.
 							</p>
-							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">Also, like with a lettermark logo, typography will be an important decision. Since the focus will be on your name, you’ll want to pick a font—or create a font—that captures the essence of what your business does. For example, fashion labels tend to use clean, elegant fonts that feel high-end, while legal or government agencies almost always stick to traditional, “heavier” text that feels secure.</p>
+							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">Also, like with a lettermark logo, typography will be an important decision. Since the focus will be on your name, you’ll want to pick a font—or create a font—that captures the essence of what your business does. For example, fashion labels tend to use clean, elegant fonts that feel high-end, while legal or government agencies almost always stick to traditional, “heavier” text that feels secure.</p>
 							<div className='flex my-10 justify-center items-center gap-10'>
 							     <div >
 									<img src={logo4} alt="" />
@@ -167,10 +167,10 @@ const FeaturedBlog = () => {
 									</p>
 								</a>
 							</div>
-							<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+							<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
 							A pictorial mark (sometimes called brand mark or logo symbol) is an icon—or graphic-based logo. It’s probably the image that comes to mind when you think “logo”: the iconic Apple logo, the Twitter bird, the Target bullseye. Each of these companies’ logos is so emblematic, and each brand so established, that the mark alone is instantly recognizable. A true brand mark is only an image. Because of this, it can be a tricky logo type for new companies, or those without strong brand recognition, to use.
 							</p>
-							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
 							The biggest thing to consider when deciding to go with a pictorial mark is what image to choose. This is something that will stick with your company its entire existence. You need to think about the broader implications of the image you choose: do you want to play on your name (like John Deere does with their deer logo)? Or are you looking to create deeper meaning (think how the Snapchat ghost tells us what the product does)? Or do you want to evoke an emotion (as the World Wildlife foundation does with their stylized image of a panda—an adorable and endangered species)?
 							</p>
 							<div className='flex my-10 justify-center items-center gap-10'>
@@ -200,10 +200,10 @@ const FeaturedBlog = () => {
 									</p>
 								</a>
 							</div>
-							<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+							<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
 							An abstract mark is a specific type of pictorial logo. Instead of being a recognizable image—like an apple or a bird—it’s an abstract geometric form that represents your business. A few famous examples include the BP starburst-y logo, the Pepsi divided circle and the strip-y Adidas flower. Like all logo symbols, abstract marks work really well because they condense your brand into a single image. However, instead of being restricted to a picture of something recognizable, abstract logos allow you to create something truly unique to represent your brand.
 							</p>
-							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
 							The benefit of an abstract mark is that you’re able to convey what your company does symbolically, without relying on the cultural implications of a specific image. Through color and form, you can attribute meaning and cultivate emotion around your brand. (As an example, think about how the Nike swoosh implies movement and freedom).
 							</p>
 							<div className='flex my-10 justify-center items-center gap-10'>
@@ -234,10 +234,10 @@ const FeaturedBlog = () => {
 									</p>
 								</a>
 							</div>
-							<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+							<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
 							Mascot logos are logos that involve an illustrated character. Often colorful, sometimes cartoonish, and most always fun, the mascot logo is a great way to create your very own brand spokesperson—er, spokes-character(?).
 							</p>
-							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
 							A mascot is simply an illustrated character that represents your company. Think of them as the ambassador for your business. Famous mascots include the Kool-Aid Man, KFC’s Colonel and Planter’s Mr. Peanut.
 							Mascots are great for companies that want to create a wholesome atmosphere by appealing to families and children. Think of all those mascots at sporting events and the great dynamic they create by getting involved with the audience!
 							</p>
@@ -269,10 +269,10 @@ const FeaturedBlog = () => {
 									</p>
 								</a>
 							</div>
-							<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+							<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
 							A combination mark is a logo comprised of a combined wordmark or lettermark and a pictorial mark, abstract mark, or mascot. The picture and text can be laid out side-by-side, stacked on top of each other, or integrated together to create an image. Some well-known combination mark logos include Doritos, Burger King and Lacoste.
 							</p>
-							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
 							Because a name is associated with the image, a combination mark is a versatile choice, with both the text and icon or mascot working together to reinforce your brand. With a combination mark, people will also begin to associate your name with your pictorial mark or mascot right away! In the future, you may be able to rely exclusively on a logo symbol, and not have to always include your name. Also, because the combination of a symbol and text creates a distinct image together, this type of logo is usually easier to trademark than a pictorial mark alone.
 							</p>
 							<div className='flex my-10 justify-center items-center gap-10'>
@@ -305,10 +305,10 @@ const FeaturedBlog = () => {
 									</p>
 								</a>
 							</div>
-							<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+							<p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
 							An emblem logo consists of font inside a symbol or an icon; think badges, seals and crests. These logos tend to have a traditional appearance about them that can make a striking impact, thus they are often the go-to choice for many schools, organizations or government agencies. The auto industry is also very fond of emblem logos. While they have a classic style, some companies have effectively modernized the traditional emblem look with logo designs fit for the 21st century (think of Starbucks’ iconic mermaid emblem, or Harley-Davidson’s famous crest).
 							</p>
-							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+							<p className="mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
 							But because of their lean towards higher detail, and the fact that the name and symbol are rigidly entwined, they can be less versatile than the aforementioned types of logos. An intricate emblem design won’t be easy to replicate across all branding. For business cards, a busy emblem may shrink so small before it becomes too difficult to read. Also, if you plan on embroidering this type of logo on hats or shirts, then you’ll really have to create a design that is on the simple side or it just won’t be possible. So as a rule keep your design uncomplicated and you’ll walk away with a strong, bold look that’ll make you look like the consummate professional.
 							</p>
 							<div className='flex my-10 justify-center items-center gap-10'>

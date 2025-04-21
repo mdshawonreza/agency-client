@@ -1,6 +1,6 @@
 import React from 'react';
 import AnimatedCursor from "react-animated-cursor"
-import Cursor from "../../assets/Star 16.png"
+import Cursor from "../../assets/Cursor_20250422_002554_0000.png"
 
 const AnimCursor = () => {
     return (

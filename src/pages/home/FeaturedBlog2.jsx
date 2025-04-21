@@ -35,7 +35,7 @@ const FeaturedBlog2 = () => {
                         <div className="lg:col-span-5">
 
 
-                            <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal md:text-2xl">
+                            <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal md:text-2xl text-justify">
                                 <span className='text-5xl font-semibold text-[#064BA7]'>I</span>f you want to get into producing animated videos for your business, you’ve probably asked yourself: What is the difference between animation and motion graphics?
 
                                 Motion graphics are a type of animation. While motion graphics describes moving or animated graphic design, animation is an umbrella term for the whole field of moving imagery, including everything from cartoons to claymation. Motion graphics focus on giving movement to graphic design elements, but tend to have less of a concrete storytelling aspect than other types of animation.
@@ -91,7 +91,7 @@ const FeaturedBlog2 = () => {
                                         </p>
                                     </a>
                                 </div>
-                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
                                     Motion graphics takes graphic design that would be otherwise static and gives it animation and movement, usually without following a specific narrative.
 
                                     Want the bars in your graph to rise up for some extra visual flair? That’s motion graphics.
@@ -104,10 +104,10 @@ const FeaturedBlog2 = () => {
 
                                     Whether or not there’s a “story” being told is a big determining factor in deciding if you’re dealing with motion graphics or animation. Motion graphics animation usually features shapes, objects or text that are being set in motion.
                                 </p>
-                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
                                     Motion graphics can illustrate complex ideas visually. Think of motion graphics like a visual aid. Some ideas (especially big, abstract ones) are hard to explain with words or still images. A few seconds of motion graphics can clear everything up perfectly. Just think about how password fields sometimes vibrate or turn red when you enter a wrong password, instantly signalling that you need to try again.
                                 </p>
-                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
                                     The visual style of motion graphics appeals to a wide range of viewers. Cartoons may come across as too childish for a formal business. But motion graphics can use that cute and fun style and apply it to more mature topics. No matter what industry you’re in, the motion graphics look can make your message more engaging and entertaining.
                                 </p>
 
@@ -133,7 +133,7 @@ const FeaturedBlog2 = () => {
                                         </p>
                                     </a>
                                 </div>
-                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
                                     Animation is the broader umbrella term that motion graphics falls under. Animation has a history dating back more than 100 years. (Wanna dig into that history? Check out this great guide to animation).
 
                                     animation for an app that detects car crash
@@ -150,7 +150,7 @@ const FeaturedBlog2 = () => {
                                     This animation explains through funny storytelling how data is saved in the cloud. Animation by Janos Nyujto.
                                     So when do you use the term animation compared to motion graphics?
                                 </p>
-                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">Animation is used for stories. Anyone who’s seen a Pixar film knows that animation can be a powerful storytelling medium. Motion graphics can bring statistical data to life, but animation can bring characters to life with emotional narratives, creativity, and artistic expression.
+                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">Animation is used for stories. Anyone who’s seen a Pixar film knows that animation can be a powerful storytelling medium. Motion graphics can bring statistical data to life, but animation can bring characters to life with emotional narratives, creativity, and artistic expression.
                                     Animation is more expensive. Motion graphics are usually easier to produce. It’s a less complex form of animation. But when you start looking at photorealistic CGI, hand-drawn or painted artwork, and stop-motion techniques, expect to invest more money.
                                 </p>
 
@@ -177,10 +177,10 @@ const FeaturedBlog2 = () => {
                                         </p>
                                     </a>
                                 </div>
-                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
                                     It’s no secret the internet loves videos. No matter whether you choose motion graphics or other styles of animation, videos in general yield better engagement, traffic and conversions.
                                 </p>
-                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
                                     Narrative title sequence for South by Southwest Conference & Festivals via Coat of Arms
 
                                     Video is the #1 preferred type of content from brands with 93% of digital marketers saying that social media videos won them new customers. More than half of users engaged with a brand after watching one of their videos on social media.
@@ -204,7 +204,7 @@ const FeaturedBlog2 = () => {
                                         </p>
                                     </a>
                                 </div>
-                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
                                     Motion graphics are best for outlining or emphasizing facts and illustrating a point you’re trying to make. Motion graphics are used when there’s no need for narrative or storytelling.
 
                                     Motion graphic videos can break down your complex services or products and present them in a memorable way. Remember, motion graphics are at their core visual aids, so they excel at teaching hard-to-understand ideas through visuals.
@@ -246,7 +246,7 @@ const FeaturedBlog2 = () => {
                                         </p>
                                     </a>
                                 </div>
-                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
                                     If you want to highlight the emotional aspects of a story, provide a narrative or if you need to connect with your audience on an emotional level, you want to go with other kinds of animation.
 
                                     Stories help establish a deeper connection between you and your target audience and other types of animation are better suited for creating these kinds of narratives.
@@ -271,7 +271,7 @@ const FeaturedBlog2 = () => {
                                         </p>
                                     </a>
                                 </div>
-                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
                                     When we’re talking about motion graphics and other types of animation, remember: there is a lot of overlap between these and sometimes it can be hard to tell them apart.
 
                                     But no matter which type of animated video you use, you’re on your way to more engaging content for your audience.

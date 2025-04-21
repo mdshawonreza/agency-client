@@ -322,7 +322,7 @@ const OurProjects = () => {
                                 Our <span className='text-[#0379BE] md:leading-relaxed'>Projects </span>
                             </h2>
                             <p className=" md:text-[26px] text-center font-medium text-gray-200 inter-font px-3 md:px-0">
-                                Lorem ipsum dolor sit amet consectetur adipisicing perspiciatis ratione?
+                            Discover how we transform ideas into impactful visuals, websites, and digital strategies
                             </p>
 
 

@@ -33,7 +33,7 @@ const FeaturedBlog3 = () => {
                             <div className="lg:col-span-5">
 
 
-                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal md:text-2xl">
+                                <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal md:text-2xl text-justify">
                                     <span className='text-5xl font-semibold text-[#064BA7]'>W</span>hat’s the difference between web design and development? And what about UI vs UX? What do these divisions mean? Why are there so many acronyms?? Don’t tech people want everything to be user friendly!?
 
 If you’re new to getting a website designed, coming across the terminology of the tech industry can feel a lot like listening to a foreign language—except most foreign languages have rhyme and reason. But working with a web professional is something every business should do at some point; if you want a successful website, you may need a translator.
@@ -45,7 +45,7 @@ If you’re new to getting a website designed, coming across the terminology of 
                         <div className='flex justify-center items-center mt-8'>
                             <img src={bannerImg} alt="" />
                         </div>
-                        <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal md:text-2xl mt-8">
+                        <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal md:text-2xl mt-8 text-justify">
                         That’s what this article is for. If you’re getting your first website designed or just looking to understand the industry better, here we explain and dissect four of the most used and most troublesome terms in tech today: UI, UX, web design and web development. After reading this, you’ll not only know what each field does, but also which one you need your business to focus on most.
                                 </p>
                     </div>
@@ -65,14 +65,14 @@ If you’re new to getting a website designed, coming across the terminology of 
                                             </p>
                                         </a>
                                     </div>
-                                    <div className="mb-4  text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal space-y-4">
+                                    <div className="mb-4  text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal space-y-4 text-justify">
                                             <li> <span className='text-[22px] font-bold'>Web design — </span> A broad umbrella category for everything that relates to designing the visuals and usability of a website. Both UI and UX design, along with many other fields, are included under web design.</li>
                                             <li> <span className='text-[22px] font-bold'>Web development — </span>The technical part of making a website, focusing on code. Web development is further divided into “front-end” and “back-end,” explained below.</li>
                                             <li> <span className='text-[22px] font-bold'>User Interface (UI) —</span> A specialization of web design that deals with the controls people use to interact with a website or app, including button displays and gesture controls.</li>
                                             <li> <span className='text-[22px] font-bold'>User Experience (UX) —  </span>Another specialization of web design, this one dealing with user behavior and feeling when using the site or app. UX design encapsulates many other areas, but views them from the perspective of the user.</li>
         
                                         </div>
-                                    <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+                                    <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
                                     As you can see already, none of these areas are exclusive and there’s tons of overlap. Web design and development are just two sides of the same coin, UI design influences UX design, web development supports them all… it’s less about which fields handle which tasks, and more about how each field considers the same task from a different point-of-view.
 
 For example, let’s look at loading times, a common problem for every website. How does each field address loading times:
@@ -101,14 +101,14 @@ For example, let’s look at loading times, a common problem for every website. 
                                             </p>
                                         </a>
                                     </div>
-                                    <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+                                    <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
                                     “Web design” is a bit of an archaic term, dating back to the days when a single person handled all the design aspects of a website. By modern standards, the term “web designer” can be a bit vague; today, thanks to technology and our increased understanding of the craft, we have a rainbow of subdivisions.
                                     </p>
                                     <div className='flex justify-center items-center mt-8'>
                             <img src={image2} alt="" />
                         </div>
                                     
-                                    <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal mt-8">The subcategories of web design include both UI and UX, but also other fun acronyms like IA (information architecture, dealing with site mapping and navigation) and CRO (conversion rate optimization, fine-tuning the site’s design to increase sales, signups or other specific actions). There are dozens of these subcategories, with new ones created every day as designers try to get better jobs in a competitive market.
+                                    <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal mt-8 text-justify">The subcategories of web design include both UI and UX, but also other fun acronyms like IA (information architecture, dealing with site mapping and navigation) and CRO (conversion rate optimization, fine-tuning the site’s design to increase sales, signups or other specific actions). There are dozens of these subcategories, with new ones created every day as designers try to get better jobs in a competitive market.
 
 Generally speaking, web design relates to the visuals and functionality of a web site. It’s a field intrinsically tied to graphic design at every level, and deals with the same design principles of visual communication.
                                     </p>
@@ -132,7 +132,7 @@ Generally speaking, web design relates to the visuals and functionality of a web
                                         </a>
                                     </div>
                                    <div className='flex flex-col  md:flex-row justify-between items-center'>
-                                   <div className="mb-4 md:w-1/2 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal space-y-4">
+                                   <div className="mb-4 md:w-1/2 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal space-y-4 text-justify">
                                             <li> More than anything, you need to know what you want before you can find the best web designer for you. Because of so many specializations, it’s not about whether a designer is good or bad, but whether they’re a good fit for you.</li>
                                             <li>Pay attention to their portfolio. With the emphasis on graphic design, web designers each have their own unique artistic styles.</li>
                                             <li>Look for a mastery of the aspects you value. If you have a text-heavy site, see how they handle typography, readability and page layout. If you’re building an ecommerce website design, see if they know what makes a good product page. Check out the best ecommerce website designers here.</li>
@@ -165,12 +165,12 @@ Generally speaking, web design relates to the visuals and functionality of a web
                                             </p>
                                         </a>
                                     </div>
-                                    <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal">
+                                    <p className=" text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
                                     Web design and development are distinguished by the use of code. Development is where things get technical, but the good news is you don’t have to know what your developers are talking about as long as they do (though it’s certainly helpful to learn the basics).
 
 Web development is divided into two main categories:
                                     </p>
-                                    <ul className="mb-4 mt-4  text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal space-y-4">
+                                    <ul className="mb-4 mt-4  text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal space-y-4 text-justify">
                                             <li> <span className='text-[22px] font-bold'>Front-end :</span> The code for how web site (or app) is displayed on screen. The front-end developer is in charge of bringing the web designer’s vision to life, typically using computer languages like HTML, CSS and JavaScript. Naturally, not everything the designer planned is realistically feasible, so the front-end developer often works back-and-forth with the designer.</li>
                                             <li> <span className='text-[22px] font-bold'>Back-end :</span>The “front-end” pulls from a digital system of resources hosted on a server. The back-end developer manages those behind-the-scenes resources, coding the data in the database and optimizing how that data gets delivered. They use languages like PHP, Ruby, Python, Java or .Net.</li>
                                             <li> <span className='text-[22px] font-bold'>User Interface (UI) —</span> A specialization of web design that deals with the controls people use to interact with a website or app, including button displays and gesture controls.</li>
@@ -198,7 +198,7 @@ Web development is divided into two main categories:
                                             </p>
                                         </a>
                                     </div>
-                                    <div className="mb-4 mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal space-y-4">
+                                    <div className="mb-4 mt-4 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal space-y-4 text-justify">
                                             <li> Be sure to see if they’re fluent in the languages you need. If you can’t tell the difference, tell them what you’d like to do with your site and listen to their recommendation.</li>
                                             <li>Although not required, it’s helpful for a developer to be involved with the design process. For example, a developer could preemptively tell a designer if their choices are possible, saving time on revisions in the long-run. You may want to look into how well your developer works with a team, since some prefer to work autonomously.</li>
                                             <li>Review their previous websites through a lens of functionality. Does everything work as it should? Any flags pop up? You may not know enough about development to understand how it works, but you certainly know what it’s like to be a normal person using a site.</li>
@@ -226,7 +226,7 @@ Web development is divided into two main categories:
                                         </a>
                                     </div>
                                     <div className='flex  flex-col-reverse md:flex-row justify-between items-center md:gap-10  mb-8'>
-                                    <p className=" text-xl md:w-5/6 font-medium text-[#3F3F3F] font-Poppins leading-normal">
+                                    <p className=" text-xl md:w-5/6 font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
                                     Now that we’ve explained web design and development, we can discuss the more specialized fields, starting with user interface design. UIs are something everyone uses without giving much thought to—you don’t need to know the history of the hamburger icon to know that the button with three lines is your menu.
 
 Jeeves Information Systems icon design

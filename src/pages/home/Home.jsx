@@ -13,19 +13,19 @@ import AppointmentForm from './AppointmentForm';
 const Home = () => {
     return (
         <div>
-           
-            <div className=" bg-banner "  style={{ backgroundImage: `url(${bannerImg})`}}>
+
+            <div className=" bg-banner " style={{ backgroundImage: `url(${bannerImg})` }}>
                 <Banner></Banner>
 
             </div>
             <div>
                 <Breaking></Breaking>
-            <AboutUS></AboutUS>
-            <AppointmentForm></AppointmentForm>
-            <Project></Project>
-            <OurTeam></OurTeam>
-            <FeaturedContent></FeaturedContent>
-            <ContactUs></ContactUs>  
+                <AboutUS></AboutUS>
+                <AppointmentForm></AppointmentForm>
+                <Project></Project>
+                <OurTeam></OurTeam>
+                <FeaturedContent></FeaturedContent>
+                <ContactUs></ContactUs>
             </div>
         </div>
     );
