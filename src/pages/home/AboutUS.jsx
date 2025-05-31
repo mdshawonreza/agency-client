@@ -13,55 +13,69 @@ import aboutBanner from "../../assets/charlesdeluvio-Lks7vei-eAg-unsplash.jpg"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import { FaArrowRight, FaPhone } from 'react-icons/fa';
 // ..
 AOS.init();
 
 const AboutUS = () => {
+//      const handleWhatsAppClick = () => {
+//     // Replace with your WhatsApp number
+//     const whatsappNumber = '+8801601982900';
+//     const message = 'Hi! I would like to know more about your services.';
+//     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+//     window.open(whatsappUrl, '_blank');
+//   };
     return (
         <section id='about'>
             <div className='max-w-[390px] px-5 lg:px-10 md:max-w-[800px] lg:max-w-[1320px] mx-auto flex justify-center items-center min-h-[100vh] md:min-h-[600px] mt-0 md:mt-0'>
 
-                <div className="flex flex-col lg:flex-row gap-10 lg:gap-16">
+                <div className="flex flex-col lg:flex-row-reverse  gap-10 lg:gap-16">
                     <div className='lg:w-1/2 flex gap-3 justify-center  items-end'>
                         <div>
                             <img className='rounded-lg' src={aboutBanner} alt="" />
                         </div>
-                        {/* <div className='flex items-center  '>
-                            <img className='w-[35px] ml-24 md:ml-[222px] mb-[230px] md:mb-[434px] absolute ' src={aboutImg9} alt="" />
-                            <img className='w-16 md:w-[119px] -ml-7 md:-ml-[72px]    mt-[170px]   md:mt-[334px] absolute animate-spin3' src={aboutImg7} alt="" />
-                            <div data-aos="zoom-in-up" >
-                                <img className='' src={aboutImg1} alt="" />
-                            </div>
-                            <img className='w-16  md:w-[119px] -ml-[35px] md:-ml-[72px]  mt-[180px] md:mt-[334px] absolute animate-ping' src={aboutImg8} alt="" />
-                        </div> */}
-                        {/* <div className='flex flex-col gap-3'>
-                            <div data-aos="zoom-in-up">
-                                <img className='' src={aboutImg2} alt="" />
-                            </div>
-                            <div data-aos="zoom-in-up">
-                                <img className='' src={aboutImg3} alt="" />
-                            </div>
 
 
-
-                        </div> */}
                     </div>
                     <div className='lg:w-1/2 flex items-center pb-8 md:pb-16 lg:pb-0'>
                         <div className=''>
-                            {/* <div className='flex justify-center md:justify-between items-start gap-7 md:gap-0 md:mr-4'>
-                                <img className='md:ml-6 md:-mt-8' src={aboutImg10} alt="" />
-                                <div className=' md:mb-16 '>
-                                    <img className='-mb-20 md:-mb-28 ml-14 w-10 md:w-16 animate-bounce' src={aboutImg4} alt="" />
-                                    <img className='w-[150px] md:w-[197px] animate-spin1 h-[150px] md:h-[207px] -mb-6' src={aboutImg5} alt="" />
-                                    <img className='animate-bounce -mt-24 md:-mt-32 w-10 md:w-16 ml-[58px] md:ml-16' src={aboutImg6} alt="" />
-                                </div>
-                            </div> */}
+
                             <h1 className="text-3xl md:text-[58px] font-semibold text-[#064BA7]  md:mt-0 font-Poppins">About Us</h1>
                             <p className="pt-2 md:pt-6 text-xl font-medium text-[#3F3F3F] font-Poppins leading-normal text-justify">
                                 At Rayluxeo, our mission is to help businesses grow with creative and effective digital solutions. We focus on designs, websites, user-friendly experiences, marketing, video content, and social media management. Our goal is to make brands stand out and connect with their audience in a meaningful way.
                                 We believe in combining creativity and strategy to deliver results that matter. Every project we take on is an opportunity to create something unique and valuable for our clients.
                             </p>
+                            <div className="flex justify-center md:justify-start gap-4 relative z-10 flex-wrap mt-3 md:mt-4">
+
+
+
+                                <div className="relative inline-flex  group">
+                                    <div
+                                        className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#711fc9] to-[#4c0f6f] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                                    </div>
+                                    <a href="#appointment">
+                                    <button
+                                        // onClick={handleWhatsAppClick}
+                                        aria-label="Chat on WhatsApp"
+                                        className="hover:bg-[#064BA7] text-[#064BA7] hover:text-white px-6 py-2 relative bg-white rounded-full transition duration-300 border-2 border-[#064BA7] md:text-xl font-semibold flex justify-center items-center gap-2">
+                                        Free Consultancy
+                                    </button>
+                                    </a>
+                                </div>
+                                <div className="relative inline-flex  group">
+                                    <div
+                                        className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r  from-[#44BCFF] via-[#711fc9] to-[#4c0f6f] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                                    </div>
+                                    <a href="#contact">
+                                        <button className="hover:bg-[#064BA7] relative bg-white text-[#064BA7] hover:text-white px-6 py-2 rounded-full transition duration-300 border-2 border-[#064BA7] md:text-xl font-semibold flex justify-center items-center gap-2">
+                                            <FaPhone /> Contact
+                                        </button>
+                                    </a>
+                                </div>
+
+                            </div>
                         </div>
+
 
                     </div>
                 </div>

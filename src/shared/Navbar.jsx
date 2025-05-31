@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 // import Headroom from 'react-headroom';
 import { IoSearch } from 'react-icons/io5';
 import { NavLink } from 'react-router-dom';
-import navLogo1 from '../assets/Logo.webp'
-import navLogo2 from '../assets/Logo-White.webp'
+import navLogo1 from '../assets/Rayluxeo Logo Black.png'
+import navLogo2 from '../assets/Rayluxeo Logo White.png'
 
 const Navbar = () => {
     const navLinks = <>

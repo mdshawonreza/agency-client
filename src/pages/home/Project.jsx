@@ -2,7 +2,7 @@
 import ProjectImg4 from "../../assets/Rectangle 21838.png"
 import ProjectImg5 from "../../assets/Rectangle 21840.png"
 import ProjectImg6 from "../../assets/Rectangle 21840 (1).png"
-import { FaArrowRight, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { FaArrowRight, FaChevronLeft, FaChevronRight, FaPhone } from 'react-icons/fa';
 
 import 'swiper/css';
 import 'swiper/css/free-mode';
@@ -303,6 +303,13 @@ const projects = [
 const Project = () => {
     const prevRef = useRef(null);
     const nextRef = useRef(null);
+    // const handleWhatsAppClick = () => {
+    //     // Replace with your WhatsApp number
+    //     const whatsappNumber = '+8801601982900';
+    //     const message = 'Hi! I would like to know more about your services.';
+    //     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    //     window.open(whatsappUrl, '_blank');
+    // };
     return (
         <section id="project" className="bg-base-200 md:py-20 ">
 
@@ -311,15 +318,15 @@ const Project = () => {
                 <h1 className="text-3xl md:text-[58px] font-semibold text-[#064BA7] font-Poppins"> Project</h1>
 
                 <div className='absolute top-[12px] md:-top-[15px] lg:-top-5 right-1 md:right-6 flex gap-3 md:gap-5 p-4   rounded-lg '>
-                <button ref={prevRef} className=' bg-[#0379BE] hover:bg-[#064BA7] w-[40px] md:w-[50px] h-[40px] md:h-[50px] rounded-full flex justify-center items-center text-white hover:text-[#6F6E6E] '>
-                    <FaChevronLeft className="" size={20} />
-                </button>
-                <button ref={nextRef} className=' bg-[#0379BE] hover:bg-[#064BA7] md:w-[50px]  w-[40px] h-[40px] md:h-[50px] rounded-full flex justify-center items-center text-white hover:text-[#6F6E6E] '>
-                    <FaChevronRight className="" size={20} />
-                </button>
+                    <button ref={prevRef} className=' bg-[#0379BE] hover:bg-[#064BA7] w-[40px] md:w-[50px] h-[40px] md:h-[50px] rounded-full flex justify-center items-center text-white hover:text-[#6F6E6E] '>
+                        <FaChevronLeft className="" size={20} />
+                    </button>
+                    <button ref={nextRef} className=' bg-[#0379BE] hover:bg-[#064BA7] md:w-[50px]  w-[40px] h-[40px] md:h-[50px] rounded-full flex justify-center items-center text-white hover:text-[#6F6E6E] '>
+                        <FaChevronRight className="" size={20} />
+                    </button>
+                </div>
             </div>
-            </div>
-           
+
             <div className="">
 
 
@@ -352,48 +359,15 @@ const Project = () => {
                             <div key={project.id} className="   rounded-lg shadow-md overflow-hidden ">
                                 <div className="relative">
                                     <img src={project.projectImage} alt="" className="w-full h-[366px] object-cover" />
-                                    {/* <div className="absolute top-5 right-5 flex space-x-3 font-Poppins">
-                        <span className="bg-white font-medium text-[#3F3F3F] text-base px-2 py-1 rounded">3D</span>
-                        <span className="bg-white font-medium text-[#3F3F3F] text-base px-2 py-1 rounded">AR/VR/MR</span>
-                        <span className="bg-white font-medium text-[#3F3F3F] text-base px-2 py-1 rounded">2D</span>
-                    </div> */}
+
                                     <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-85 opacity-0 hover:opacity-100  ">
                                         <a href={project.link}>
                                             <h3 className="text-2xl text-white font-semibold font-Poppins">{project.projectTitle}</h3>
                                         </a>
-                                        {/* <p className="mb-4 text-sm text-white inter-font">Co Founder</p> */}
-                                        {/* <p className="mb-4 text-sm tracking-wide text-gray-200 inter-font">
-                                            Co-founder dedicated to quality, affordability, and reliability.
-                                        </p> */}
-                                        {/* <div className="flex items-center justify-center space-x-3">
-                                            <a
-                                                href="/"
-                                                className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                                            >
-                                                <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
-                                                    <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                                                </svg>
-                                            </a>
-                                            <a
-                                                href="/"
-                                                className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                                            >
-                                                <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
-                                                    <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
-                                                </svg>
-                                            </a>
-                                        </div> */}
+
                                     </div>
                                 </div>
-                                {/* <div className=" text-white bg-[#3F3F3F] py-7 px-5 flex justify-between items-center">
-                    
-                    <h3 className="text-2xl font-semibold font-Poppins">{projectTitle}</h3>
-                    <div className="flex justify-between  items-center mt-4">
-                        <button className="btn text-white  btn-circle border-none bg-[#0379BE] btn-outline">
-                            <FaArrowRight className='text-[20px]' />
-                        </button>
-                    </div>
-                </div> */}
+
                             </div>
                         </SwiperSlide>
                     ))}
@@ -413,26 +387,57 @@ const Project = () => {
 
                         <div className="">
                             <div className="flex justify-center md:justify-end gap-8 ">
-                                <div className="text-4xl lg:text-[55px]  font-semibold text-[#D7D7D7] space-y-2 md:space-y-4 my-7 md:my-10 font-Poppins">
+                                <div className="text-4xl lg:text-[55px]  font-semibold text-white space-y-2 lg:space-y-4 my-7 md:my-10 font-Poppins  md:w-60 lg:w-80">
                                     <h2>See what </h2>
                                     <h2> we can do </h2>
                                     <h2> for you </h2>
 
                                 </div>
-                                <div data-aos="fade-up-right">
+
+                                <div data-aos="fade-up-right ">
                                     <img src={projectImg2} className="w-20 md:w-[250px] lg:w-[300px] md:h-[180px]  animate-pulse md:mt-9  hidden md:flex" alt="" />
 
                                 </div>
                             </div>
                         </div>
-                        <div className="flex  justify-center">
+
+                        <div className="flex justify-center md:justify-start gap-4 relative z-10 flex-wrap mt-3 md:mt-4">
+
+
+
+                            <div className="relative inline-flex  group">
+                                <div
+                                    className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#711fc9] to-[#4c0f6f] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                                </div>
+                                <a href="#appointment">
+                                <button
+                                    // onClick={handleWhatsAppClick}
+                                    aria-label="Chat on WhatsApp"
+                                    className="hover:bg-[#0379BE]  text-[#064BA7]  hover:text-white px-6 py-2 relative bg-white rounded-full transition duration-300 border-2 border-[#0379BE]  md:text-xl font-semibold flex justify-center items-center gap-2">
+                                    Free Consultancy
+                                </button>
+                                </a>
+                            </div>
+                            <div className="relative inline-flex  group">
+                                <div
+                                    className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r  from-[#44BCFF] via-[#711fc9] to-[#4c0f6f] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                                </div>
+                                <a href="#contact">
+                                    <button className="hover:bg-[#0379BE]  relative bg-white text-[#064BA7]  hover:text-white px-6 py-2 rounded-full transition duration-300 border-2 border-[#0379BE]  md:text-xl font-semibold flex justify-center items-center gap-2">
+                                        <FaPhone /> Contact
+                                    </button>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div className=" hidden md:flex mt-5 justify-center md:ml-80">
                             <img src={projectImg3} className="w-20 md:w-[112px] animate-spin1" alt="" />
 
                         </div>
                     </div>
 
                 </div>
-                <div className=" mx-8 md:mx-10 flex flex-col justify-center   lg:w-2/6 mb-10 md:mb-0 md:py-5 lg:py-10">
+                <div className="mt-10 md:mt-0 mx-8 md:mx-10 flex flex-col justify-center   lg:w-2/6 mb-10 md:mb-0 md:py-5 lg:py-10">
                     <div className="hover:text-white flex justify-between gap-8  items-center">
                         <h3 className="text-2xl  my-4 font-medium text-[#6D6D6D] hover:text-white font-Poppins">Graphic Design</h3>
                         <FaArrowRight className=" mr-10 text-2xl  mt-2" />

@@ -128,16 +128,16 @@ export default function AppointmentForm({
     }));
   };
 
-  const handleWhatsAppClick = () => {
-    // Replace with your WhatsApp number
-    const whatsappNumber = '+8801601982900';
-    const message = 'Hi! I would like to know more about your services.';
-    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
-    window.open(whatsappUrl, '_blank');
-  };
+  // const handleWhatsAppClick = () => {
+  //   // Replace with your WhatsApp number
+  //   const whatsappNumber = '+8801601982900';
+  //   const message = 'Hi! I would like to know more about your services.';
+  //   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+  //   window.open(whatsappUrl, '_blank');
+  // };
 
   return (
-    <div>
+    <div id='appointment'>
 
       <div
         className={cn(
@@ -182,14 +182,14 @@ export default function AppointmentForm({
         </div>
         <div className="  py-12 px-4 sm:px-6 lg:px-8 relative">
           {/* WhatsApp Float Button */}
-          <button
+          {/* <button
             onClick={handleWhatsAppClick}
             className="fixed bottom-8 right-8 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors z-50 flex items-center gap-2"
             aria-label="Chat on WhatsApp"
           >
             <MessageCircle size={24} />
             <span className="hidden sm:inline">Chat with us</span>
-          </button>
+          </button> */}
 
           <div className="max-w-3xl mx-auto">
             <div className=" rounded-2xl overflow-hidden">

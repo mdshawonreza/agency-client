@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaInstagramSquare, FaLinkedinIn } from 'react-icons/fa';
-import footerImg1 from '../assets/Logo-White.webp'
+import footerImg1 from '../assets/Rayluxeo Logo White.png'
 import footerImg2 from '../assets/Frame.png'
 import { RiFacebookCircleFill } from 'react-icons/ri';
 import { BsTwitter } from 'react-icons/bs';
@@ -17,7 +17,7 @@ const Footer = () => {
                     <div className="flex flex-col md:flex-row md:gap-10 justify-between items-center md:items-end">
                         <div className=''>
                             <div className=''>
-                                <div className='md:mb-10 '>
+                                <div className='md:mb-6 '>
                                     <img className='w-28 md:w-[200px] md:h-[54px] md:-mb-6' src={footerImg1} alt="" />
                                 </div>
 

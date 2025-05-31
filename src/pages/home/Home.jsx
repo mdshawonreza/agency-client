@@ -21,6 +21,7 @@ const Home = () => {
             <div>
                 <Breaking></Breaking>
                 <AboutUS></AboutUS>
+                
                 <AppointmentForm></AppointmentForm>
                 <Project></Project>
                 <OurTeam></OurTeam>
